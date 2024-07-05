@@ -16,3 +16,86 @@ body {
     margin: 0 auto; 
     padding: 0 20px;
 }
+/* Header styles */
+header {
+    background-color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(25, 10, 236, 0.87);
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.logo {
+    text-decoration: none;
+    color: #00aaff;
+    font-size: 2.5rem;
+    display: inline; 
+}
+
+.logo span {
+    font-size: 2rem;
+    color: #719ef0; 
+    display: inline;
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 10px; 
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s ease; 
+}
+
+.nav-list a:hover {
+    color: #00aaff; 
+}
+
+#hero-image {
+    position: relative;
+    text-align: center;
+    color: white;
+   background-image: url(../assets/images/hero.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover.text {
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5)
+    animation: fadeIn 2s ease-in-out;
+}
+.overlay {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 
+}
