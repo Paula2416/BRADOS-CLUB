@@ -125,7 +125,7 @@ nav {
 .about-us h3,
 .about-us h4 {
     font-size: 2rem;
-    color: #007bff;
+    color: #000408;
     text-transform: uppercase;
 }
 
@@ -190,99 +190,7 @@ nav {
     .about-us ul li {
         font-size: 1rem;
     }
-}
-/* About Us Section */
-.about-us {
-    position: relative;
-    padding: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-}
-.about-us h2,
-.about-us h3,
-.about-us h4,
-.about-us p,
-.about-us ul {
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    display: inline-block;
-    padding: 10px;
-    border-radius: 10px;
-    animation: zoomIn 10s ease-in-out;
-}
 
-.about-us h2,
-.about-us h3,
-.about-us h4 {
-    font-size: 2rem;
-    color: #007bff;
-    text-transform: uppercase;
-}
-
-.about-us p,
-.about-us ul li {
-    font-size: 1.1rem;
-}
-
-.about-us ul {
-    list-style: none;
-    padding-left: 0;
-    text-align: left;
-    display: inline-block;
-}
-
-.about-us ul li {
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.about-us ul li::before {
-    color: #007bff;
-    position: absolute;
-    left: -20px;
-    font-size: 1.5rem;
-    line-height: 1;
-}
-
-/* Animations */
-@keyframes zoomOut {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes zoomIn {
-    from {
-        transform: scale(0.8);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .about-us h2,
-    .about-us h3,
-    .about-us h4 {
-        font-size: 1.5rem;
-    }
-
-    .about-us p,
-    .about-us ul li {
-        font-size: 1rem;
-    }
-}
 /* Footer Styles */
 footer {
     background-color: #333;
