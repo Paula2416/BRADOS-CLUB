@@ -118,7 +118,7 @@ nav {
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
-    animation: zoomIn 2s ease-in-out;
+    animation: zoomIn 10s ease-in-out;
 }
 
 .about-us h2,
@@ -210,7 +210,7 @@ nav {
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
-    animation: zoomIn 2s ease-in-out;
+    animation: zoomIn 10s ease-in-out;
 }
 
 .about-us h2,
@@ -347,7 +347,7 @@ footer p {
     position: relative;
     padding: 50px;
     background: url('../images/background.jpg') no-repeat center center/cover;
-    color: white;
+    color: rgb(18, 108, 243);
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
     overflow: hidden;
