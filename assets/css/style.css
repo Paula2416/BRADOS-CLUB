@@ -118,14 +118,14 @@ nav {
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
-    animation: zoomIn 10s ease-in-out;
+    animation: zoomIn 6s ease-in-out;
 }
 
 .about-us h2,
 .about-us h3,
 .about-us h4 {
-    font-size: 2rem;
-    color: #000408;
+    font-size: 2.5rem;
+    color: #0c6af7;
     text-transform: uppercase;
 }
 
@@ -147,10 +147,10 @@ nav {
 }
 
 .about-us ul li::before {
-    color: #007bff;
+    color: #060707;
     position: absolute;
     left: -20px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1;
 }
 
@@ -255,10 +255,11 @@ footer p {
     position: relative;
     padding: 50px;
     background: url('../images/background.jpg') no-repeat center center/cover;
-    color: rgb(18, 108, 243);
+    color: rgb(10, 10, 10);
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
     overflow: hidden;
+    font-weight: bold;
 }
 
 .about h2,
@@ -267,7 +268,7 @@ footer p {
 .about p {
     margin: 20px 0;
     opacity: 0;
-    animation: slideIn 1s forwards;
+    animation: slideIn 5s forwards;
 }
 
 @keyframes slideIn {
@@ -282,23 +283,23 @@ footer p {
 }
 
 .about h2 {
-    animation-delay: 0.2s;
+    animation-delay: 1s;
 }
 
 .about p#brand {
-    animation-delay: 0.4s;
+    animation-delay: 2s;
 }
 
 .about h3 {
-    animation-delay: 0.6s;
+    animation-delay: 3s;
 }
 
 .about h4#brand {
-    animation-delay: 0.8s;
+    animation-delay: 4s;
 }
 
 .about p {
-    animation-delay: 1s;
+    animation-delay: 5s;
 }
 
 /* Responsive Styles */
@@ -637,8 +638,4 @@ footer p {
         padding: 10px 20px;
     }
 }
-
-
-
-
-
+}
